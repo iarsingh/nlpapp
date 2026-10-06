@@ -26,3 +26,11 @@ A Python desktop NLP application built with Tkinter, object-oriented design, JSO
 An API based NLP application created using Tkinter and OOP
 
 Link for API - https://komprehend.io/api-wrappers
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
